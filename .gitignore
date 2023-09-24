@@ -1,5 +1,6 @@
 .idea/
 venv/
+__pycache__/
 Java/ontology-semantic-matching-service/.gradle/
 Java/ontology-semantic-matching-service/build/
 
