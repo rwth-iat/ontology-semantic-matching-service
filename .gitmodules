@@ -1,0 +1,3 @@
+[submodule "Java/ontology-semantic-matching-service"]
+	path = Java/ontology-semantic-matching-service
+	url = https://github.com/moritzsommer/ontology-semantic-matching-service
