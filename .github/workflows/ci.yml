@@ -35,5 +35,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Add Gradle Permission
+        working-directory: Java/ontology-semantic-matching-service
+        run: date
+
       - name: Run Python Tests
         run: python -m unittest discover
