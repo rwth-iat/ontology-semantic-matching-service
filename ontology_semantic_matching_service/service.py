@@ -9,7 +9,7 @@ from ontology_semantic_matching_service import exceptions, queries
 from ontology_semantic_matching_service.gateway_connection import GatewayServerManager
 
 
-class OWLSemanticMatchingService(
+class OwlSemanticMatchingService(
     interface.AbstractSemanticMatchingInterface
 ):
     """

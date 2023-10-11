@@ -5,7 +5,7 @@ import ontology_semantic_matching_service.run_service
 
 from fastapi import FastAPI
 from ontology_semantic_matching_service import queries
-from ontology_semantic_matching_service.service import OWLSemanticMatchingService
+from ontology_semantic_matching_service.service import OwlSemanticMatchingService
 from semantic_matching_interface import query
 from uvicorn import Config
 
@@ -13,7 +13,7 @@ from uvicorn import Config
 class TestYourModule(unittest.TestCase):
 
     def test_semantic_matching_service_information(self):
-        matching_service = OWLSemanticMatchingService()
+        matching_service = OwlSemanticMatchingService()
         APP = FastAPI()
         APP.include_router(matching_service.router)
         config = Config(
@@ -54,7 +54,7 @@ class TestYourModule(unittest.TestCase):
             os.pardir,
             "test-resources"
         )
-        matching_service = OWLSemanticMatchingService()
+        matching_service = OwlSemanticMatchingService()
         APP = FastAPI()
         APP.include_router(matching_service.router)
         config = Config(
@@ -105,7 +105,7 @@ class TestYourModule(unittest.TestCase):
             os.pardir,
             "test-resources"
         )
-        matching_service = OWLSemanticMatchingService()
+        matching_service = OwlSemanticMatchingService()
         APP = FastAPI()
         APP.include_router(matching_service.router)
         config = Config(

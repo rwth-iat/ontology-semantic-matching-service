@@ -5,7 +5,7 @@ import time
 import uvicorn
 
 from fastapi import FastAPI
-from ontology_semantic_matching_service.service import OWLSemanticMatchingService
+from ontology_semantic_matching_service.service import OwlSemanticMatchingService
 from uvicorn import Config
 
 
@@ -32,7 +32,7 @@ def run_matching_service(
 ) -> None:
     original_directory = os.getcwd()
     # Run the matching server
-    matching_service = OWLSemanticMatchingService()
+    matching_service = OwlSemanticMatchingService()
     APP = FastAPI()
     APP.include_router(matching_service.router)
     config = Config(
