@@ -32,20 +32,20 @@ class TestYourModule(unittest.TestCase):
             matching_service.java_gateway.shutdown()
             # Tests
             self.assertEqual(
-                response.json()["matching_method"],
-                "OWL-ontology matching"
+                "OWL-ontology matching",
+                response.json()["matching_method"]
             )
             self.assertEqual(
-                response.json()["matching_algorithm"],
-                "Hypertableau calculus based reasoning"
+                "Hypertableau calculus based reasoning",
+                response.json()["matching_algorithm"]
             )
             self.assertEqual(
-                response.json()["required_parameters"],
-                []
+                [],
+                response.json()["required_parameters"]
             )
             self.assertEqual(
-                response.json()["optional_parameters"],
-                []
+                [],
+                response.json()["optional_parameters"]
             )
 
     def test_semantic_match_objects(self):
@@ -87,19 +87,36 @@ class TestYourModule(unittest.TestCase):
             matching_service.java_gateway.shutdown()
             # Tests
             self.assertEqual(
-                response.json()["matching_method"],
-                "OWL-ontology matching"
+                "OWL-ontology matching",
+                response.json()["matching_method"]
             )
             self.assertEqual(
-                response.json()["matching_algorithm"],
-                "Hypertableau calculus based reasoning"
+                "Hypertableau calculus based reasoning",
+                response.json()["matching_algorithm"]
             )
             self.assertEqual(
-                response.json()["matching_score"],
-                0.8888888888888888
+                0.8888888888888888,
+                response.json()["matching_score"]
             )
 
     def test_semantic_match_all_objects(self):
+        # Change threshold for reasoner
+        java_config_directory = os.path.join(
+            os.path.dirname(__file__),
+            os.pardir,
+            "Java/ontology-semantic-matching-service/"
+        )
+        os.chdir(java_config_directory)
+        backup_threshold = ""
+        with open("config.properties", "r") as file:
+            lines = file.readlines()
+        for i, line in enumerate(lines):
+            if line.startswith("filter.maximumScoreToRemove="):
+                backup_threshold = lines[i]
+                lines[i] = line.split("=")[0] + "=0.0\n"
+        with open("config.properties", "w") as file:
+            file.writelines(lines)
+
         resource_directory = os.path.join(
             os.path.dirname(__file__),
             os.pardir,
@@ -118,7 +135,7 @@ class TestYourModule(unittest.TestCase):
 
         with server.run_in_thread():
             os.chdir(resource_directory)
-            # avoid resource warning
+            # Avoid resource warning
             with open("people.owl", "r") as file:
                 ontology = file.read()
             upload_query = queries.UploadQuery(ontologies=[ontology])
@@ -129,13 +146,20 @@ class TestYourModule(unittest.TestCase):
             response = requests.get(
                 "http://localhost:8000/semantic_match_all_objects",
             )
-            # avoid resource warning
+            # Avoid resource warning
             with open("people_result.txt", "r") as file:
                 match_all_objects_result = file.read()
             # Shutdown gateway server
             matching_service.java_gateway.shutdown()
+            # Restore old threshold
+            os.chdir(java_config_directory)
+            for i, line in enumerate(lines):
+                if line.startswith("filter.maximumScoreToRemove="):
+                    lines[i] = backup_threshold
+            with open("config.properties", "w") as file:
+                file.writelines(lines)
             # Test
             self.assertEqual(
-                str(response.json()),
-                match_all_objects_result
+                match_all_objects_result,
+                str(response.json())
             )

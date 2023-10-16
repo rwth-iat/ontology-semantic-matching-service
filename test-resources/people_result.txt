@@ -5,6 +5,2325 @@ All matching scores:
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.3[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.26666666666666666[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.4444444444444444[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.16[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+
+[0;32mMatching score of [1;32m0.18181818181818182[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Male
+http://www.semanticweb.org/mdebe/ontologies/example#Female
+
+[0;32mMatching score of [1;32m1.0[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Gender>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.5714285714285714[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.5714285714285714[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+
+[0;32mMatching score of [1;32m0.6666666666666666[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+
+[0;32mMatching score of [1;32m0.14285714285714285[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+
+[0;32mMatching score of [1;32m0.21052631578947367[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+
+[0;32mMatching score of [1;32m0.43243243243243246[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.5714285714285714[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.25[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.125[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.25[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.17647058823529413[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.36363636363636365[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.36363636363636365[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.2608695652173913[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+
+[0;32mMatching score of [1;32m0.21052631578947367[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.5[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.25[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.34782608695652173[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.3[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.75[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.46153846153846156[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+
+[0;32mMatching score of [1;32m0.14814814814814814[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.25[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.3076923076923077[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+
+[0;32mMatching score of [1;32m0.2857142857142857[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
 http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
 
 [0;32mMatching score of [1;32m0.8888888888888888[0;32m due to [0m[0;32mthe following class intersection[0m
@@ -53,12 +2372,12 @@ no difference found
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-http://www.semanticweb.org/mdebe/ontologies/example#Male
-http://www.semanticweb.org/mdebe/ontologies/example#Female
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
 
-[0;32mMatching score of [1;32m1.0[0;32m due to [0m[0;32mthe following class intersection[0m
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
 
-<http://www.semanticweb.org/mdebe/ontologies/example#Gender>
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
 
 [0;32mand [0m[0;32mthe following object property assertion intersection[0m
 
@@ -70,11 +2389,1213 @@ no match found
 
 [0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
 
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+
+[0;32mMatching score of [1;32m0.4444444444444444[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.75[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.5714285714285714[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+
+[0;32mMatching score of [1;32m0.38095238095238093[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan
+
+[0;32mMatching score of [1;32m0.3076923076923077[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+
+[0;32mMatching score of [1;32m0.3333333333333333[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham
+
+[0;32mMatching score of [1;32m0.4[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Miss_Havisham>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "65"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.625[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "28"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+
+[0;32mMatching score of [1;32m0.07407407407407407[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.2222222222222222[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.46153846153846156[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.3076923076923077[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby
+
+[0;32mMatching score of [1;32m0.1111111111111111[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Nick_Carraway>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "42"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe
+
+[0;32mMatching score of [1;32m0.3076923076923077[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Woman>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "32"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.26666666666666666[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
 no difference found
 
 [0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
 
+<http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
 no difference found
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe
+
+[0;32mMatching score of [1;32m0.07407407407407407[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+no match found
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Male>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#John_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#John_Smith
+
+[0;32mMatching score of [1;32m0.26666666666666666[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+<http://www.semanticweb.org/mdebe/ontologies/example#Adult>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Jay_Gatsby>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+<http://www.semanticweb.org/mdebe/ontologies/example#Parent>
+<http://www.semanticweb.org/mdebe/ontologies/example#Social_Person>
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Brother>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Child>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Wife>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Daughter>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Spouse>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Beth_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Daisy_Buchanan>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Friend>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "34"^^xsd:integer
+
+<http://www.semanticweb.org/mdebe/ontologies/example#John_Smith>:
+DataProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Age>
+AssertionObject: "43"^^xsd:integer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe
+http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe
+
+[0;32mMatching score of [1;32m0.4[0;32m due to [0m[0;32mthe following class intersection[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Person>
+
+[0;32mand [0m[0;32mthe following object property assertion intersection[0m
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Gender>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Female>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+[0;32mand [0m[0;32mthe following data property assertion intersection[0m
+
+no match found
+
+[0;31mwith [0m[0;31mthe following symmetric difference between classes[0m
+
+no difference found
+
+[0;31mand [0m[0;31mthe following symmetric difference between object property assertions[0m
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+<http://www.semanticweb.org/mdebe/ontologies/example#Mary_Doe>:
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sister>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Parent>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#John_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Aunt>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Sibling>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Susan_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Uncle>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Tom_Doe>
+
+ObjectProperty: <http://www.semanticweb.org/mdebe/ontologies/example#has_Social_Relation_With>
+AssertionObject: <http://www.semanticweb.org/mdebe/ontologies/example#Sarah_Doe>
 
 [0;31mand [0m[0;31mthe following symmetric difference between data property assertions[0m
 
@@ -82,6 +3603,6 @@ no difference found
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Amount of matchings with value > 0.8: 2
+Amount of matchings with value > 0.0: 56
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
