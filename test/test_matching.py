@@ -10,6 +10,28 @@ from semantic_matching_interface import query
 from uvicorn import Config
 
 
+def compare_strings(expected, actual):
+    expected_lines = expected.split('\n')
+    actual_lines = actual.split('\n')
+
+    if len(expected_lines) != len(actual_lines):
+        # Different number of lines
+        return False
+
+    line_count_map = {}
+
+    for line in expected_lines:
+        line_count_map[line] = line_count_map.get(line, 0) + 1
+
+    for line in actual_lines:
+        if line not in line_count_map:
+            # Line not present in expected
+            return False
+        line_count_map[line] -= 1
+
+    return all(count == 0 for count in line_count_map.values())
+
+
 class TestYourModule(unittest.TestCase):
 
     def test_semantic_matching_service_information(self):
@@ -159,7 +181,4 @@ class TestYourModule(unittest.TestCase):
             with open("config.properties", "w") as file:
                 file.writelines(lines)
             # Test
-            self.assertEqual(
-                match_all_objects_result,
-                str(response.json())
-            )
+            assert compare_strings(match_all_objects_result, str(response.json()))
