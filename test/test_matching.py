@@ -74,7 +74,7 @@ class TestYourModule(unittest.TestCase):
         resource_directory = os.path.join(
             os.path.dirname(__file__),
             os.pardir,
-            "test-resources"
+            "test_resources"
         )
         matching_service = OwlSemanticMatchingService()
         APP = FastAPI()
@@ -142,7 +142,7 @@ class TestYourModule(unittest.TestCase):
         resource_directory = os.path.join(
             os.path.dirname(__file__),
             os.pardir,
-            "test-resources"
+            "test_resources"
         )
         matching_service = OwlSemanticMatchingService()
         APP = FastAPI()

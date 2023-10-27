@@ -15,8 +15,8 @@ if __name__ == '__main__':
     print("\n")
     # First, we're going to load the ontologies
     print("Loading the ontologies:")
-    ontology_1 = "example-resources/pump_station.rdf"
-    ontology_2 = "example-resources/control_system.rdf"
+    ontology_1 = "example_resources/pump_station.rdf"
+    ontology_2 = "example_resources/control_system.rdf"
     print(ontology_1)
     print(ontology_2)
     print("Execute http://localhost:8000/upload_ontology")
